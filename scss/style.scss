@@ -1,3 +1,9 @@
-body {
-    background-color: aqua;
-}
+@import "variables";
+@import "mixins";
+@import "globals";
+@import "header";
+@import "animation";
+@import "hero";
+@import "feature";
+@import "article";
+@import "footer";
