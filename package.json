@@ -1,0 +1,27 @@
+{
+  "name": "easybank_landing_page",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "Easybank, HTML, CSS, JS "
+  ],
+  "license": "MIT",
+  "author": "Dulanga Nimesha",
+  "scripts": {
+    "clean": "rm -rf docs",
+    "scss": "node-sass --watch scss -o css",
+    "build": "parcel build index.html 404.html --dist-dir ./docs",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.2.1",
+    "@parcel/transformer-webmanifest": "^2.2.1",
+    "parcel": "^2.2.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
